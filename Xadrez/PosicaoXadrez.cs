@@ -1,5 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 using tabuleiro;
+
 namespace Xadrez
 {
     class PosicaoXadrez
@@ -11,6 +12,10 @@ namespace Xadrez
         {
             Coluna = coluna;
             Linha = linha;
+        }
+
+        public PosicaoXadrez()
+        {
         }
 
         public Posicao toPosicao()
