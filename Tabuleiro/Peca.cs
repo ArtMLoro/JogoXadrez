@@ -17,12 +17,12 @@ namespace tabuleiro
             QtdMovimentos = 0;
         }
 
-        public void incrementarqQtdMovimentos()
+        public void incrementarQtdMovimentos()
         {
             QtdMovimentos++;
         }
 
-        public void dencrementarqQtdMovimentos()
+        public void decrementarQtdMovimentos()
         {
             QtdMovimentos--;
         }
